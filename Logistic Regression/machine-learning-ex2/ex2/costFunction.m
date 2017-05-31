@@ -20,13 +20,15 @@ grad = zeros(size(theta));
 % Note: grad should have the same dimensions as theta
 %
 
-
-
-
-
-
-
-
+for N = 1:m
+  termSig = sigmoid(theta'*X(N,:)');
+  term1 = -y(N)*log(termSig);
+  term2 = -(1-y(N))*log(1 - termSig);
+  J += term1 + term2;
+  grad += (sigmoid(theta'*X(N,:)') - y(N))*X(N,:)';
+endfor
+J /= m;
+grad /= m;
 % =============================================================
 
 end
