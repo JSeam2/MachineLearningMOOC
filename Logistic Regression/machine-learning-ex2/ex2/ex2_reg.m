@@ -1,4 +1,4 @@
-%% Machine Learning Online Class - Exercise 2: Logistic Regression
+  %% Machine Learning Online Class - Exercise 2: Logistic Regression
 %
 %  Instructions
 %  ------------
@@ -107,7 +107,7 @@ pause;
 initial_theta = zeros(size(X, 2), 1);
 
 % Set regularization parameter lambda to 1 (you should vary this)
-lambda = 1;
+lambda = 3;
 
 % Set Options
 options = optimset('GradObj', 'on', 'MaxIter', 400);
