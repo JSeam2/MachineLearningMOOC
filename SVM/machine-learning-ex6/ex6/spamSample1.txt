@@ -1,0 +1,9 @@
+Get everything you need to build and deploy your app on any platform. Some of the benefits included with your Dev Essentials membership are:
+
+    Visual Studio Tools and Services
+    $25/month of Azure credits for 1 year
+    Xamarin University Training
+    3-month subscription to Pluralsight
+    SQL Server 2016 Developer Edition 
+
+Activate your Visual Studio Dev Essentials membership today!
