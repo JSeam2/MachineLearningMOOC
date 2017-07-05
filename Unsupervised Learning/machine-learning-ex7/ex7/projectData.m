@@ -17,6 +17,10 @@ Z = zeros(size(X, 1), K);
 %                    x = X(i, :)';
 %                    projection_k = x' * U(:, k);
 %
+U_reduce = U(:, K);
+Z = (U_reduce' * X')';
+
+
 
 
 
