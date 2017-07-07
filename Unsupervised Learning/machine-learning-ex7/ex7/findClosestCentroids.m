@@ -20,8 +20,6 @@ idx = zeros(size(X,1), 1);
 %
 % Note: You can use a for-loop over the examples to compute this.
 %
-
-% Is there really no way of vectorizing this?
 for i = 1:length(X)
   maxval = inf;
   for j = 1:K
@@ -33,7 +31,6 @@ for i = 1:length(X)
     end
   end
 end
-  
 
 
 

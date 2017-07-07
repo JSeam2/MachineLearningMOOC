@@ -26,6 +26,7 @@ centroids = zeros(K, n);
 % Note: You can use a for-loop over the centroids to compute this.
 %
 
+
 for j = 1:K
   count = 0;
   accumulator = 0;
