@@ -22,8 +22,8 @@ sigma2 = zeros(n, 1);
 %
 mu = mean(X);
 
-%for x 
 
+sigma2 = sum((X .- mu).^2)/m;
 
 
 
